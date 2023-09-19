@@ -64,3 +64,13 @@ console.log(result2);
 //similar to slice
 let result3 = email.substr(4,10);
 console.log(result3);
+
+
+//replace like it says
+let result4 = email.replace("mikel","Josit");
+
+console.log(result4);
+
+//only replaces the first letter nopt all 
+let result5 = email.replace("i","o");
+console.log(result5);
