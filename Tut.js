@@ -111,7 +111,48 @@ const likes9 = 30;
 //concatenate them way
 let result9= "the blog called " + title9 + " by " + author9 + " has " + likes9 + " likes"
 console.log(result9)
+
 //template string way
 
-let result11 = "the blog called ${title9} by ${author9} has ${likes9} likes";
+// In JavaScript, template literals are created using backticks (`), 
+//not regular single or double quotes. Here's the corrected code:
+
+let result11 = `the blog called ${title9} by ${author9} has ${likes9} likes`;
 console.log(result11)
+
+
+//creating html templates 
+
+let html = `
+    <h2>${title9}</h2>
+    <p>By  ${author9}</p>
+    <span> This blog has ${likes9} likes </span>
+`
+
+
+//
+
+let ninjas = ["mathew","carlos","brad"];
+//override value in an array
+ninjas[1] = "Remy";
+console.log(ninjas[1]);
+
+let ages = [30,20,69,839,3];
+//join values in an array first method
+let result12 = ninjas.join(",");
+console.log(result12);
+//find location of variable
+let result13 = ninjas.indexOf("mathew");
+console.log(result13);
+
+//join new array to old array
+let result14 = ninjas.concat(["ken","Jasqui"]);
+console.log(result14);
+
+//will give out the legth of the new array
+//this form actually alters the original value not like the other opnes that just create 
+// a new value with the added values
+let result15 = ninjas.push("simon")
+console.log(result15)
+
+console.log(ninjas);
