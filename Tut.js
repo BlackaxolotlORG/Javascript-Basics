@@ -156,3 +156,14 @@ let result15 = ninjas.push("simon")
 console.log(result15)
 
 console.log(ninjas);
+//push lo pone hasta el final y pop quita el ultimo => esto es lo que se referia joaq con stacks an example is control z
+let result16 = ninjas.pop();
+console.log(ninjas);
+
+//if you print the result16 you can see which result was poped
+console.log(result16);
+
+
+
+// you give Null a value and undefined is given automatically
+console.log(age0, age0 + 3 , `the age is ${age0}`)
