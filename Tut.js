@@ -94,3 +94,24 @@ console.log(result10);
 
 
 //NaN - not a number
+console.log(5*"Hello")
+// this gives a not a number NAN because you are trying to multiply a number by a string
+
+let likes = 10;
+let result6 = "Hello my age is" + " " + likes + " " + "likes";
+
+console.log(result6)
+
+
+//template strings
+const title9 = "Best reads of 2019";
+const author9 = "Diego Lopez Araiza";
+const likes9 = 30;
+
+//concatenate them way
+let result9= "the blog called " + title9 + " by " + author9 + " has " + likes9 + " likes"
+console.log(result9)
+//template string way
+
+let result11 = "the blog called ${title9} by ${author9} has ${likes9} likes";
+console.log(result11)
