@@ -74,3 +74,23 @@ console.log(result4);
 //only replaces the first letter nopt all 
 let result5 = email.replace("i","o");
 console.log(result5);
+
+
+
+let radius = 10;
+const pi = 3.14;
+console.log(radius);
+console.log(pi);
+
+let results = radius % 3;
+
+console.log(results);
+
+
+// double ** means to the power of
+let result10 = pi * radius ** 2;
+
+console.log(result10);
+
+
+//NaN - not a number
