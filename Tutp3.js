@@ -80,3 +80,44 @@ console.log("area is ", areaarrow2)
 
 
 /// changing regular functions to arrow functions
+
+
+//regular
+const  greeting3 =function(){
+    return "hello there example not arrow";
+};
+greeting3();
+const result2= greeting3();
+console.log(result2)
+
+//arrow functions
+const  greeting2 = () => "hello there";
+const result= greeting2();
+console.log(result)
+
+
+const bill = function(products, tax){
+    let total = 0
+    for (let i = 0; i< products.length; i++){
+        total += products[i] + products[i] *tax;
+    }
+    return total;
+}
+console.log(bill([10,15,30],0.2))
+
+//doesnt change much because it is to big
+const billarrow = (products, tax) => {
+    let total = 0
+    for (let i = 0; i< products.length; i++){
+        total += products[i] + products[i] *tax;
+    }
+    return total;
+}
+
+console.log(billarrow([10,15,30],0.2))
+
+
+
+///difference in functions and methods
+
+//functions
