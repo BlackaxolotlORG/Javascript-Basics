@@ -76,9 +76,109 @@ if(amninjas.length > 3){
 }
 
 
-
-const password= "password";
-
-if(password.length >= 8){
+/// as many else if as you want
+const password= "passwrordddkddkd";
+if(password.length >= 12){
+    console.log("that password is super strong ")
+}
+else if(password.length >= 8){
     console.log("that password is long enough")
 }
+else{
+    console.log("that password is not long enough")
+}
+
+
+
+////////////logical operators ////////////
+/// satisfying many conditions 
+const password2= "pas@d";
+
+// AND is &&
+if(password2.length >= 12 && password2.includes("@")){
+    console.log("that password is super strong ")
+}
+//OR is ||
+else if(password2.length >= 8 || password2.includes("@")&& password2.length >= 5){
+    console.log("that password is long enough")
+}
+else{
+    console.log("that password is not long enough")
+}
+
+
+////////////logical Nots (!)////////////
+// run condition if it is false
+
+console.log(!true)
+console.log(true)
+console.log(false)
+
+let user = false;
+
+if(!user){
+    console.log("must login to continue")
+}
+
+///break and continue
+
+const scores = [25,30,40,0,50,100,60];
+
+for(let i9 = 0; i9 < scores.length; i9++){
+
+    if(scores[i9]==0){
+        continue;
+    }
+
+    console.log(`your score is: ${scores[i9]}`);
+
+    if(scores[i9]===100){
+    console.log("congrats you got the top score");
+    break;
+
+    }
+}
+
+
+///switch statements
+
+const grade = "D";
+
+switch(grade){
+    case "A":
+    console.log("you got an A");
+    break;
+    case "B":
+        console.log("you got an B");
+        break;
+    case "C":
+        console.log("you got an C");
+        break;
+    case "D":
+        console.log("you got an D");
+        break;
+    case "E":
+        console.log("you got an E");
+        break;
+    default:
+        console.log("not a valid grade");
+}
+
+//this is the less optimal way to do the last function
+
+if(grade == "A"){
+    console.log("you got an A");
+}else if (grade == "B"){
+    console.log("you got an B");
+}else if (grade == "C"){
+    console.log("you got an C");
+}else if (grade == "D"){
+    console.log("you got an D");
+}else if (grade == "E"){
+    console.log("you got an E");
+}else{
+
+}
+
+//variables & block scopes
+
