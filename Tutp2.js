@@ -182,3 +182,31 @@ if(grade == "A"){
 
 //variables & block scopes
 
+let agetwo = 30;
+if(true){
+    agetwo =40;
+    console.log("inside code block: ",agetwo);
+
+}
+console.log("outside: ",agetwo)
+
+//second part 
+//here we can only acess this version of age in this codeblock
+let agethree = 30;
+if(true){
+    let agethree =40;
+    let name6 = "Diego";
+    console.log("inside code block: ",agetwo, name6);
+
+}
+if(true){
+    console.log("inside second code block: ",agetwo);
+
+}
+
+//if you define something inside a codeblock you can only acess it in the codeblock
+console.log("outside: ",agethree)
+
+
+
+// we use let and const because var doesnt let you have blockscope
