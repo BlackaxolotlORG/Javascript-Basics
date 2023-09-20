@@ -1,3 +1,6 @@
+// this whole docuement is to help with syntax and basic types in javascript
+
+
 alert("Hello world");
 
 
