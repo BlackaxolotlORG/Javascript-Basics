@@ -166,4 +166,73 @@ console.log(result16);
 
 
 // you give Null a value and undefined is given automatically
+
+
+//  i put this function in comments because it gives the error:  
+//console.log(age0, age0 + 3 , `the age is ${age0}`)
+
+// you give Null a value and undefined is given automatically
+let age0 = null;
 console.log(age0, age0 + 3 , `the age is ${age0}`)
+
+
+////////////////////////////
+//booleans and comparisons//
+////////////////////////////
+
+
+//null can be used as a placeholder for user information if they reset there account
+console.log(true,false);
+
+let emailo = "diego@gmail.com";
+
+let boolean2 = emailo.includes("@");
+
+console.log(boolean2);
+
+
+let arraynames = ["mario", "Toad", "Luigi"]
+let boolean3 = arraynames.includes("Toad");
+console.log(boolean3);
+
+
+
+
+
+//comparison operators
+
+let agent = 25;
+console.log(agent==25);
+
+// == double equal signs means equals to
+// != means does not equal to
+
+let agent1 = 26;
+console.log(agent1 !=25);
+console.log(agent1 >25);
+console.log(agent1 <25);
+console.log(agent1 <=25);
+console.log(agent1 >=25);
+
+
+
+let name4 = "Diego";
+console.log(name4 == "Diego");
+//capital letter changes everything
+console.log(name4 == "diego");
+// the first letter is greater than the  other so it is true
+console.log(name4 > "Crystal");
+
+
+//javascript says they are the same even though they are different types 
+// but only with double ==
+let numberop = 25;
+console.log(numberop == "25");
+
+
+
+//converting values
+
+let score01 = "100";
+score2 = Number(score01);
+console.log(score2 + 1);
