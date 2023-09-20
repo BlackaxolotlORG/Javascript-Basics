@@ -120,4 +120,49 @@ console.log(billarrow([10,15,30],0.2))
 
 ///difference in functions and methods
 
+
+const name8 = "Diego"
 //functions
+
+const greet4 = () => "Hello"
+
+let printgreet4 = greet4();
+console.log(printgreet4);
+
+//methods
+// dot notation in value
+
+let reusulttwo = name8.toUpperCase();
+console.log(reusulttwo);
+
+
+//callback functions
+
+const myFunc = (callbackfunction) => {
+    // do something
+    let value = 50;
+    callbackfunction(value);
+
+
+}
+
+myFunc(value =>  {
+    //do something
+    console.log(value);
+});
+
+
+let gente = ["diego", "carlos", "joeseph","issac"];
+
+gente.forEach((person , index)=> {
+    console.log(`there is this person in this list: ${person} and ${index}`);
+});
+
+
+///or we can do this
+
+const gentecallback = (person , index)=> {
+    console.log(`there is this person in this list: ${person} and ${index}`);
+}
+
+gente.forEach(gentecallback)
