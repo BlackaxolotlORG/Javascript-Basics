@@ -31,6 +31,21 @@ body {
   background-color: #04AA6D;
   color: white;
 }
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #333;}
+.button1:hover {background-color: #04AA6D;}
+
 </style>
 </head>
 <body>
@@ -45,9 +60,13 @@ body {
 </div>
 
 <div style="padding-left:16px">
-  <h2>The Document Object Model (DOM)</h2>
+  <h2 id = "title-doc">The Document Object Model (DOM)</h2>
   <p>Here is the The Document Object Model</p>
+  <p class = "err9r">hello this is err9r class</p>
+  <div class = "err9r"><p>hello this is err9r class</p></div>
+  <p id = "pragraph-id">hello this is an ID class</p>
 </div>
+<a href="DOM.html"><button class="button button1" >Example of html editing with javascript</button></a>
 <script src="Tutp5.js"></script>
 </body>
 </html>
