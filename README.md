@@ -22,7 +22,7 @@ To get started with your JavaScript learning journey, follow these steps:
 2. **Clone your fork:** Use `git clone` to clone your forked repository to your local machine.
 
 ```bash
-git clone https://github.com/your-username/javascript-practice.git
+git clone https://github.com/your-username/Javascript-Basics.git
 ```
 
 3. **Explore the exercises:** Browse the repository to find a collection of JavaScript exercises, challenges, and projects in the `exercises` directory.
@@ -80,6 +80,3 @@ Feel free to explore these resources to deepen your understanding of JavaScript.
 ## License
 
 This repository is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for your personal and educational purposes.
-```
-
-You can copy and paste this template into your README.md file in your GitHub repository and customize it as needed to fit your specific exercises and goals for learning JavaScript.
