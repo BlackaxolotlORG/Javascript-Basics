@@ -1,5 +1,5 @@
-# Javascript-For-React Practice and Learning Repository
-Learning Javascript for React
+# Javascript-Basics Practice and Learning Repository
+Learning Javascript basics
 
 
 
